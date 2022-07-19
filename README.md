@@ -1,7 +1,7 @@
-# Exercícios em Python
+## Exercícios de lógica de programação usando Python
 
-### Exercícios de lógica de programação usando Python
-## ENUNCIADOS
+### ENUNCIADOS (clique nas setas para expandir)
+
 <details><summary>Exercício 1</summary>
 <h3>Faça um algoritmo que implemente o menu abaixo.</h3>
 
