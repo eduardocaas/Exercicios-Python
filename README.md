@@ -80,3 +80,95 @@ lista_produtos = ['1001', '1324', '6548', '2987', '7623']<br/>
 lista_preços =   [ 5.32 ,  6.45 ,  2.37 ,  5.32 ,  6.45 ]
 
 </details>
+
+<details><summary>Exercício 3</summary>
+<h3>Crie uma classe chamada Caneta com os seguintes atributos:</h3>
+        - marca</br>
+        - cor</br>
+        - tipo_ponta</br>
+        - tampada</br></br>
+    O atributo marca deve ser do tipo string.</br>
+        > Exemplos: "BIC", "FABER CASTEL", "UNI BALL"</br>
+    O atributo cor deve ser do tipo string.</br>
+        > Exemplos: "Azul", "Preta", "Vermelha"</br>
+    O atributo tipo_ponta deve ser um valor real.</br>
+        > Exemplos: 0.7, 0.5, 0.3)</br>
+    O atributo tampada dever um boleano. (True, False)</br>
+        > O padrão de instância é True</br></br>
+
+    Crie os métodos para:
+        - escrever
+        - tampar
+        - destampar
+        - dados_caneta
+            -> Este método deverá retornar uma string com os atributos
+                do objeto
+
+    Crie uma lista para armazenar as suas canetas.
+    Crie as seguintes funções:
+        - adicionar_canetas_na_lista
+        - listar_todas_canetas
+        - escolher_caneta.
+            -> Esta função deverá retornar uma caneta escolhida da lista.
+        - colocar_caneta_lixo   (retirar da lista)
+
+</details>
+
+<details><summary>Exercício 4</summary>
+
+<h3>Crie uma classe chamada 'Lampada', com um atributo:</h3>
+            > 'estado' - Este atributo deverá ser um valor boleano</br>
+            > 'True', quando a lampada estiver acessa e</br>
+            > 'False', quando a lampada estiver apagada.</br>
+    <h4>A classe 'Lampada' deverá ter no contrutor o estado sempre em FALSE.</h4>
+
+    Crie os métodos necessários para ligar e desligar a lâmpada.
+    Crie também um método que retorne uma string "LIGADA", ou "DESLIGADA"
+        conforme o estado. (LIGADA - True,  DESLIGADA - False)
+
+    Você deverá controlar as ações da lâmpada pelo menu abaixo:
+        MENU
+        1- Ligar a lâmpada
+        2- Desligar a lâmpada
+
+    Para cada iteração realizada na lâmpada você deverá imprimir
+    seu estado.
+
+    Exemplo:
+        lampada = 'LIGADA'
+        lampada = 'DESLIGADA'
+
+> Obs.:  
+    Você consegue alterar o código a cima para mais que uma lâmpada?
+    Como ficaria? Tente!
+
+</details>
+
+<details><summary>Exercício 5</summary>
+
+<h3>Crie uma classe Porta, com os atributos:</h3>
+   	
+   	> cor: (None: significa não pintada) ou
+      	     "VERMELHA", "BRANCA", "AMARELA"
+    > altura: (210: altura padrão em centímetros)
+   	> largura: (60, ou 70, ou 80, ou 90 cm )
+   	> aberta: (False: se porta fechada - True: se porta aberta).
+   	observação: Todos atributos devem ser privados
+
+
+	 Faça os métodos:
+   	- construtor, passando a largura desejada
+                   e altura como default em 210.
+   	- pintar (parâmetro é uma nova cor)
+   	- abrir_porta
+   	- fechar_porta
+   	- __str__: (mostrar todos atributos)
+
+	   - crie um método privado 'tipo_pintura' que retorne
+     	  "SEM COR", caso a porta não esteja pintada
+      	 	ou retorne a cor atual
+   	- crie um método privado 'aberta_fechada' que retorne
+       		"ABERTA" ou "FECHADA", conforme True ou False
+   	- altere o __str__ para chamar esses métodos.
+
+</details>
