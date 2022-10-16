@@ -175,8 +175,8 @@ lista_preços =   [ 5.32 ,  6.45 ,  2.37 ,  5.32 ,  6.45 ]
 
 <details><summary>Exercício 6</summary>
 
-	Faça um algoritmo que controle o acesso de pessoas a
-	um estabelecimento comercial.
+<h3>Faça um algoritmo que controle o acesso de pessoas a
+um estabelecimento comercial.</h3>
 
 	Para isso você deverá utilizar as seguintes classes:
 
